@@ -17,4 +17,4 @@ jobs:
           distribution: temurin
           java-version: '17'
       - name: Run Gradle tests
-        run: ./gradlew test --no-daemon -x checkFormat -x checkstyleMain -x checkstyleTest
+        run: ./gradlew test --no-daemon --continue
